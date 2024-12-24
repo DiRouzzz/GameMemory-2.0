@@ -4,7 +4,6 @@ import { ResultsPage } from './ResultsPage.jsx';
 import { InitialPage } from './InitialPage.jsx';
 import { AppRoute } from '../settings.js';
 
-
 function App({results, getImages }) {
       const [page, setPage] = React.useState(AppRoute.Initial);
       const [result, setResult] = React.useState(0);
